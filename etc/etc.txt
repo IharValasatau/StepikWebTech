@@ -1,3 +1,4 @@
 # git clone https://github.com/IharValasatau/StepikWebTech.git /home/box/web
-# bash /home/box/web/init.sh
+# cd
 # /home/box/web sudo gunicorn - b 0.0.0.0:8080 hello:app
+gunicorn -b 0.0.0.0:8080 -c ~/web/hello.py hello:application
